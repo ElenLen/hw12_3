@@ -5,13 +5,13 @@ const alphabet = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭ
 console.log(alphabet.length);
 
 // Используя объект Math, создай четыре случайных индекса в диапазоне от 0 до длины вашей alphabet.
-let randomNum1 = Math.round(Math.random() * (alphabet.length - 1));
+let randomNum1 = Math.floor(Math.random() * (alphabet.length - 1));
 console.log(randomNum1);
-let randomNum2 = Math.round(Math.random() * (alphabet.length - 1));
+let randomNum2 = Math.floor(Math.random() * (alphabet.length - 1));
 console.log(randomNum2);
-let randomNum3 = Math.round(Math.random() * (alphabet.length - 1));
+let randomNum3 = Math.floor(Math.random() * (alphabet.length - 1));
 console.log(randomNum3);
-let randomNum4 = Math.round(Math.random() * (alphabet.length - 1));
+let randomNum4 = Math.floor(Math.random() * (alphabet.length - 1));
 console.log(randomNum4);
 
 // Используя полученные случайные индексы, извлеки соответствующие символы из alphabet и объедини их в строку, чтобы сформировать случайное слово.
